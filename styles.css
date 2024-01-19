@@ -1,0 +1,106 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6f8;
+}
+
+.container {
+    max-width: 980px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e1e4e8;
+    background-color: #24292e; /* GitHub's primary color */
+    color: #fff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.octocat {
+    height: 32px;
+    margin-right: 8px;
+}
+
+.github-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.github-logo svg {
+    fill: #fff;
+    margin-right: 5px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    margin-right: 8px;
+    background-color: #0366d6;
+    color: #fff;
+    border: 1px solid #0366d6;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0356c5;
+    border-color: #0356c5;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.main-content {
+    padding: 24px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0366d6;
+}
+
+.repo-list {
+    /* Styles for the repository list go here */
+}
